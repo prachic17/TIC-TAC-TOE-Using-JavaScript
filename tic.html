@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width">
+	<title> Tic-Tac-Toe </title>
+	<link rel="stylesheet"  type ="text/css" href = "./tac.css" >
+	<link rel="shortcut icon" href="./ticon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+     <h1> &lotimes; Tic &sdot; Tac &sdot; Toe &rotimes; </h1>
+     <input type="button" value="Music On" id="btn" / >
+     <audio id="audio" src="./soundbest.mp3"></audio>
+     <div class="board-design">
+      <div class="board-square top left" data-key="0"></div>
+      <div class="board-square top center" data-key="1"></div>
+      <div class="board-square top right" data-key="2"></div>
+      <div class="board-square mid left" data-key="3"></div>
+      <div class="board-square mid center" data-key="4"></div>
+      <div class="board-square mid right" data-key="5"></div>
+      <div class="board-square bottom left" data-key="6"></div>
+      <div class="board-square bottom center" data-key="7"></div>
+      <div class="board-square bottom right" data-key="8"></div>
+  </div>	
+
+    <h2 class="play-again"></h2>
+        <button type="button" class="restart-game">Play Again &circlearrowleft;
+</button>
+
+    <script src="./toe.js"> </script>
+
+</body>
+</html>
